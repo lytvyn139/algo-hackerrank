@@ -1,4 +1,19 @@
 //https://www.hackerrank.com/challenges/between-two-sets/problem
+
+function getTotalX(a, b) {
+    let count = 0;
+    for (let i = a[a.length - 1] ; i <= b[0] ; i++) {
+        (() => {
+            for (let intA of a) if (i%intA != 0) return;
+            for (let intB of b) if (intB%i != 0) return;
+            count++;
+        })();
+    }
+    return count;
+}
+getTotalX(3, 2);
+
+
 function getTotalX(a, b) {
   let startRange = a[a.length - 1];
   let endRange = b[0];
