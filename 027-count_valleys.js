@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/counting-valleys/forum
+//https://www.hackerrank.com/challenges/counting-valleys
 function countingValleys(n, s) {
     let seaLevel = 0;
     let currLevel = 0;
