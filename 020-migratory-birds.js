@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/migratory-birds/forum
+//https://www.hackerrank.com/challenges/migratory-bird/
 let arr = [1, 4, 4, 4, 5, 3];
 function migratoryBirds(arr) {
    let frequency = new Array(6).fill(0);

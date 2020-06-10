@@ -1,6 +1,6 @@
-//https://www.hackerrank.com/challenges/designer-pdf-viewer/forum
-let h = "1 3 1 3 1 4 1 3 2 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5"
-let word = 'abc'
+//https://www.hackerrank.com/challenges/designer-pdf-viewer/
+let h = "1 3 1 3 1 4 1 3 2 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5";
+let word = 'abc';
 
 function designerPdfViewer(h, word) {
     return Math.max(...word.split('').map((e) => h[e.charCodeAt(0) - 97] * word.length));
@@ -8,8 +8,8 @@ function designerPdfViewer(h, word) {
 console.log(designerPdfViewer(h, word));
 
 
-let h = "1 3 1 3 1 4 1 3 2 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5"
-let word = 'abc'
+let h = "1 3 1 3 1 4 1 3 2 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5";
+let word = 'abc';
 
 function designerPdfViewer(h, word) {
     const alphabet = 'abcdefghijklmnopqrstuvwxyz';

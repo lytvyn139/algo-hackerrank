@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/electronics-shop/forum
+//https://www.hackerrank.com/challenges/electronics-shop/
 const keyboards = [40,50,60];
 const drives = [5,8, 1, 12];
 const b = 60;

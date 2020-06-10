@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/kangaroo/forum
+//https://www.hackerrank.com/challenges/kangaroo/
 function kangaroo(x1, v1, x2, v2) {
     if(v2 < v1) {
         let numberOfJumps = (x2-x1)/(v1-v2);
